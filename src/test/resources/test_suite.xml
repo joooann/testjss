@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Java Selenium Suite" parallel="false" preserve-order="true" thread-count="1">
+    <test name="Java Selenium Test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="java.selenium.*"/>
+        </packages>
+    </test>
+</suite>
